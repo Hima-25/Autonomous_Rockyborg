@@ -23,14 +23,17 @@ Manual control via RockyBorg GUI or joystick
 Line Following using camera and OpenCV
 Remote access via connect.raspberrypi.com
 
-# Project Structure
+## Project Structure
+
+```
 main/
 ├── README.md
-├── main.py # Main control loop and robot coordination
-├── config.py # Configuration parameters and constants
-├── servo_controller.py # Servo PWM control and PID steering logic
-├── vision_processor.py # Camera handling and computer vision processing
-└── motor_controller.py # RockyBorg motor control interface
+├── main.py                 # Main control loop and robot coordination
+├── config.py               # Configuration parameters and constants
+├── servo_controller.py     # Servo PWM control and PID steering logic
+├── vision_processor.py     # Camera handling and computer vision processing
+└── motor_controller.py     # RockyBorg motor control interface
+```
 
 # Acknowledgements
 
